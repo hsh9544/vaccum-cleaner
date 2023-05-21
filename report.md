@@ -1,9 +1,8 @@
-# AI - HW 1 - Report
-The task is unclear. We don't know what sensors the agent have, so it can be implemented in many ways.
+# AI - Vaccum Cleaner
 
 I assumed the agent only has a dirt sensor, so it moves randomly, sometimes hits the wall (it tries to move, but the environment doesn't allow it), and after each move checks if there is anything to clean.
 
-The agent is so simple. I wrote it as a class with two methods:
+The agent is simple. I wrote it as a class with two methods:
 ```python
 Agent.choose_action(percept:str) -> action:str
 Agent.increase_performance() -> None
@@ -36,10 +35,3 @@ STEP: 265   | ACTION: down
 searching for dirt ...
 Agent Performance: 42
 ```
-___
-
-Thanks for your time :)
-
-Hossein Shojaeifar,
-M. Sc. Computational Linguistics,
-SID 830499057
